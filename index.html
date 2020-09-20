@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="matter.js"></script>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyD9ALmi89mCaPDW8BYPrQBO_4AAHUD2Kss",
+        authDomain: "matrix-the-game-362d0.firebaseapp.com",
+        databaseURL: "https://matrix-the-game-362d0.firebaseio.com",
+        projectId: "matrix-the-game-362d0",
+        storageBucket: "matrix-the-game-362d0.appspot.com",
+        messagingSenderId: "1093719233465",
+        appId: "1:1093719233465:web:f4dbd894f9908492a41c68",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+
+    <script src="js/Background.js"></script>
+    <script src="js/SmithDodge.js"></script>
+    <script src="js/NeoDodge.js"></script>
+  </body>
+</html>
